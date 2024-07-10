@@ -1,4 +1,6 @@
 /* src/app.css */
+/* @import url("https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&family=Satisfy&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

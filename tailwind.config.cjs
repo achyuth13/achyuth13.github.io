@@ -14,6 +14,10 @@ module.exports = {
         text: "#FFFFFF"
       },
     },
+    fontFamily: {
+      "dk-serif": ['Playwrite DK Loopet', 'serif'],
+      serif: 'serif'
+    }
   },
   plugins: [
     require('daisyui'),
