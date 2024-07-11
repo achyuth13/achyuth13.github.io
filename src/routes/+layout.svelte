@@ -2,14 +2,15 @@
     import '../app.css';
 </script>
 
-<div class="app bg-primary flex flex-col justify-between font-dk-serif">
+<div class="app  flex bg-primary flex-col justify-between font-dk-serif">
     <main class="flex-1">
         <slot />
     </main>
     <footer class="py-2 flex items-center justify-center sticky bottom-0  text-white font-serif">
-            <div class="text-secondary italic font-serif">
-                Written in <a href="https://kit.svelte.dev">Svelte</a> <span class="text-xl">&hearts;</span>
-            </div>
+        <div class="text-secondary font-serif">
+            <span class="italic">Written in <a href="https://kit.svelte.dev" class="italic">Svelte</a></span> 
+            <span class="text-xl">&hearts;</span>
+          </div>          
     </footer>
 </div>
 

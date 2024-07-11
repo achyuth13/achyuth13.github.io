@@ -1,5 +1,6 @@
 <script lang="ts">
   import { onMount } from "svelte";
+  import AboutMe from "./about/AboutMe.svelte";
 
   const sheetUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQsnHAYpWD5aF1k3fGdT2ZFv2jtZ8SklQr4S09EktaI_gS7FJJTL6SEFO4XjEocLvaudRk75MNVp3vf/pub?gid=1903501508&single=true&output=csv";
 
@@ -43,9 +44,9 @@
   });
 </script>
 
-<div class="flex items-center justify-center min-h-screen bg-primary">
-  <div class="max-w-l mx-auto bg-primary rounded-lg overflow-hidden">
-    <div class="p-20">
+<div class="flex min-h-screen">
+  <div class="max-w-l mx-auto rounded-lg overflow-hidden ">
+    <div class="mt-5">
       <div class="text-center">
         <h1 class="text-secondary text-2xl">
           Hey, I'm <a href="/about" class="font-bold text-secondary"
@@ -59,6 +60,18 @@
           <a href="/music" class="font-semibold">music</a> and
           <a href="/stories" class="font-semibold">stories</a>, not in that particular order.
         </p>
+        <hr class="my-4 border-t border-secondary">
+      </div>
+    </div>
+    <AboutMe />
+  </div>
+</div>
+
+
+<!-- Background HTML -->
+<!-- <div class="flex min-h-screen bg-[url('/pattern-5-cropped-3.svg')] bg-cover bg-bottom"></div> -->
+
+<!-- Sheets integration code -->
         <!-- <div class="text-white">
           {#if data.length > 0}
             {#each data as row}
@@ -72,12 +85,6 @@
             <p>Loading...</p>
           {/if}
         </div> -->
-      </div>
-    </div>
-    <!-- <div class="absolute inset-0 bg-hover-svg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div> -->
-  </div>
-</div>
-
 <!-- <style>
     .bg-hover-svg {
         background-image: url('/pattern-2.png');
