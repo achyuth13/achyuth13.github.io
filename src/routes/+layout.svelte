@@ -6,7 +6,7 @@
     <main class="flex-1">
         <slot />
     </main>
-    <footer class="py-2 flex items-center justify-center sticky bottom-0  text-white font-serif">
+    <footer class="py-2 flex items-center justify-center sticky bottom-0  text-white dk-serif">
         <div class="text-secondary font-serif">
             <span class="italic">Written in <a href="https://kit.svelte.dev" class="italic">Svelte</a></span> 
             <span class="text-xl">&hearts;</span>

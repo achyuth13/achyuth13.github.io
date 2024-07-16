@@ -15,7 +15,7 @@ module.exports = {
       },
     },
     fontFamily: {
-      // "dk-serif": ['Playwrite DK Loopet', 'serif'],
+      "dk-serif": ['Playwrite DK Loopet', 'serif'],
       serif: 'serif'
     }
   },
