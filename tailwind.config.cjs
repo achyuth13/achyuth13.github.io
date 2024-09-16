@@ -5,17 +5,28 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1536px',
+      },
+      backgroundImage: {
+        'large': "url('/meyoga.jpeg')",
+        'small': "url('/tree.jpeg')",
+      },
       colors: {
-        primary: '#102820',
+        primary: '#112A46',
         'primary-shade': '#4C6444',
-        secondary: '#CABA9C',
-        'secondary-shade': '#8A6240',
+        secondary: '#112A46',
+        'secondary-shade': '#ACC8E5',
         footer: '#4D2D18',
         text: "#FFFFFF"
       },
     },
     fontFamily: {
-      "dk-serif": ['Playwrite DK Loopet', 'serif'],
+      "dk-serif": ['Poppins', 'serif'],
       serif: 'serif'
     }
   },
