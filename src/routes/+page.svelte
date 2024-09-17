@@ -1,6 +1,6 @@
 <div class="relative min-h-screen bg-primary">
   <div class="flex flex-col md:flex-row justify-between items-center relative z-10 p-4 md:p-12">
-    <div class="flex flex-col md:text-secondary lg: text-secondaryml-4 md:ml-12 text-gray-100 text-center md:text-left lg:text-left mt-10">
+    <div class="flex flex-col md:text-primary lg: text-primaryml-4 md:ml-12 text-gray-100 text-center md:text-left lg:text-left mt-10">
       <h1 class="text-4xl md:text-6xl lg:text-8xl pb-6 md:pb-10 ">Achyuth Nag</h1>
       <div class="text-sm md:text-lg lg:text-xl">
         <p class="mb-4">
