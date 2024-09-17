@@ -133,7 +133,7 @@ function updateTime(): void {
   });
 </script>
 
-<main class="relative flex flex-col items-center justify-center min-h-screen p-4 bg-[url('/cherry_blossom.jpeg')] bg-cover bg-no-repeat bg-opacity-70">
+<div class="relative flex flex-col items-center justify-center min-h-screen p-4 bg-[url('/cherry_blossom.jpeg')] bg-cover bg-no-repeat bg-opacity-70">
   <h1 class="absolute top-4 left-4 text-7xl text-primary font-bold">Music</h1>
   <div class="relative flex flex-col items-center justify-center p-4">
     <div class="absolute inset-0 bg-secondary bg-opacity-70"></div>
@@ -155,7 +155,7 @@ function updateTime(): void {
   </section>
   
   <PlayList on:click={handleTrack} />
-</main>
+</div>
 
 <style>
   #player-cont {
