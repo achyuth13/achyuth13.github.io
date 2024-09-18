@@ -4,7 +4,7 @@
   let blogs = blogsData;
 </script>
 
-<div class="min-h-screen bg-[url('/img/sunset.jpg')] sm:bg-contain sm:bg-right bg-contain">
+<div class="min-h-screen bg-[url('/img/sunset.jpg')] sm:bg-contain sm:bg-right bg-contain overflow-x-hidden">
   <h1 class="relative top-4 left-4 text-7xl text-secondary font-bold">Blogs</h1>
   <div class="mt-16 p-4 rounded-md shadow-lg max-w-2xl">
     <ul class="list-disc pl-5 space-y-4">
