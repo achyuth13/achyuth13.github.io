@@ -1,5 +1,5 @@
 import preprocess from 'svelte-preprocess';
-import adapter from '@sveltejs/adapter-static';
+import vercel from '@sveltejs/adapter-vercel';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -7,12 +7,7 @@ const config = {
     postcss: true
   }),
   kit: {
-    adapter: adapter({
-      pages: 'public',
-      assets: 'public',
-      fallback: '200.html',
-      strict: false
-    }),
+    adapter: vercel(),
   },
 };
 
