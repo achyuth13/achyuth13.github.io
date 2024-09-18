@@ -28,9 +28,4 @@
             Check out my work on <a href="https://github.com/achyuth13" target="_blank" class="text-primary font-bold hover:underline">GitHub</a>
         </p>
     </div>
-    <div class="absolute bottom-8 left-0 right-0 flex justify-center">
-        <div class="text-sm sm:text-base font-bold text-white">
-          <a href="mailto:achyuth@nagadelic.me" role="button">achyuth@nagadelic.me</a>
-        </div>
-      </div>
 </div>

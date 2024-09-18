@@ -38,10 +38,4 @@
 
   <div class="absolute top-0 right-0 bottom-0 w-full bg-cover bg-no-repeat bg-center sm:bg-[url('/img/meyoga.jpeg')] bg-[url('/img/tree.jpeg')]">
   </div>
-
-  <div class="absolute bottom-8 left-0 right-0 flex justify-center">
-    <div class="text-sm sm:text-base text-white font-bold sm:text-white">
-      <a href="mailto:achyuth@nagadelic.me" role="button">achyuth@nagadelic.me</a>
-    </div>
-  </div>
 </div>
