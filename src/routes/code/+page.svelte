@@ -10,7 +10,7 @@
 
         <!-- Skills and interests -->
         <p class="text-sm md:text-base text-primary">
-            I specialize in Android development and building Svelte PWA apps. I'm deeply passionate about mobile application development and web architecture.
+            I specialize in building Android and building Svelte PWA apps. I'm deeply passionate about mobile application development and web architecture.
         </p>
         
         <!-- New interests -->

@@ -138,7 +138,7 @@ function updateTime(): void {
   <div class="relative flex flex-col items-center justify-center p-4">
     <div class="absolute inset-0 bg-secondary bg-opacity-80 rounded-lg"></div>
     <div class="relative text-center text-primary bg-opacity-70 p-1 rounded-lg">
-      <h2 class="text-md md:text-2xl font-bold mb-2">The playlist contains my originals and my covers of famous songs</h2>
+      <h2 class="text-md md:text-2xl font-bold mb-2">The playlist contains my originals and covers of famous songs</h2>
       <p class="text-sm">Click on the playlist to choose and play your favourite track!</p>
   </div>
 </div>
