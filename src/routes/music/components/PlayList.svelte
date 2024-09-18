@@ -1,5 +1,5 @@
 <script>
-	import { audioData } from './audioData.js';
+	import { audioData } from "../data/audioData";
 	
 	let listIsShowing = false;
 	

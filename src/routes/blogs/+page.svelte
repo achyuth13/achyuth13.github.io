@@ -1,18 +1,23 @@
 <script lang="ts">
-  import { blogsData } from "./blogs";
+  import { blogsData } from "./data/blogs";
   
   let blogs = blogsData;
 </script>
 
-<div class="min-h-screen bg-[url('/sunset.jpg')] sm:bg-contain sm:bg-right bg-contain">
+<div class="min-h-screen bg-[url('/img/sunset.jpg')] sm:bg-contain sm:bg-right bg-contain">
   <h1 class="relative top-4 left-4 text-7xl text-secondary font-bold">Blogs</h1>
   <div class="mt-16 p-4 rounded-md shadow-lg max-w-2xl">
     <ul class="list-disc pl-5 space-y-4">
       {#each blogs as { date, name, url }}
         <li>
-          <span class="text-gray-600">{date}</span> - <a href="{url}" class="text-secondary hover:underline">{name}</a>
+          <span class="text-gray-400">{date}</span> - <a href="{url}" class="text-secondary hover:underline">{name}</a>
         </li>
       {/each}
     </ul>
+  </div>
+  <div class="absolute bottom-8 left-0 right-0 flex justify-center">
+    <div class="text-sm sm:text-base font-bold text-white">
+      <a href="mailto:achyuth@nagadelic.me" role="button">achyuth@nagadelic.me</a>
+    </div>
   </div>
 </div>

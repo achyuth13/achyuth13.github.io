@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onDestroy, onMount } from 'svelte';
-  import { audioData } from './audioData.js';
+  import { audioData } from '../data/audioData';
   
   import TrackHeading from './TrackHeading.svelte';
   import ProgressBarTime from './ProgressBarTime.svelte';
@@ -133,15 +133,15 @@ function updateTime(): void {
   });
 </script>
 
-<div class="relative flex flex-col items-center justify-center min-h-screen p-4 bg-[url('/cherry_blossom.jpeg')] bg-cover bg-no-repeat bg-opacity-70">
+<div class="relative flex flex-col items-center justify-center min-h-screen p-4 bg-[url('/img/cherry_blossom.jpeg')] bg-cover bg-no-repeat bg-opacity-70">
   <h1 class="absolute top-4 left-4 text-7xl text-primary font-bold">Music</h1>
   <div class="relative flex flex-col items-center justify-center p-4">
-    <div class="absolute inset-0 bg-secondary bg-opacity-70"></div>
-    <div class="relative text-center text-primary bg-opacity-70 p-1 rounded-md">
+    <div class="absolute inset-0 bg-secondary bg-opacity-80 rounded-lg"></div>
+    <div class="relative text-center text-primary bg-opacity-70 p-1 rounded-lg">
       <h2 class="text-md md:text-2xl font-bold mb-2">The playlist contains my originals and my covers of famous songs</h2>
       <p class="text-sm">Click on the playlist to choose and play your favourite track!</p>
-    </div>
   </div>
+</div>
 
   <section id="player-cont" class="mt-8">
     <TrackHeading {trackTitle} />
@@ -155,6 +155,11 @@ function updateTime(): void {
   </section>
   
   <PlayList on:click={handleTrack} />
+  <div class="absolute bottom-8 left-0 right-0 flex justify-center">
+        <div class="text-sm sm:text-base font-bold text-secondary">
+          <a href="mailto:achyuth@nagadelic.me" role="button">achyuth@nagadelic.me</a>
+        </div>
+      </div>
 </div>
 
 <style>

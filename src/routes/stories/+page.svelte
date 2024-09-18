@@ -1,5 +1,5 @@
 <script lang="ts">
-    import {storiesData} from './stories.js';
+    import {storiesData} from './data/stories.js';
     import { writable } from 'svelte/store';
   
     let stories = storiesData;
@@ -16,7 +16,7 @@
     }
   </script>
   
-  <div class="min-h-screen bg-[url('/boat.jpeg')] bg-cover bg-center">
+  <div class="min-h-screen bg-[url('/img/boat.jpeg')] bg-cover bg-center">
     <h1 class="text-4xl text-secondary text-center py-8">This is Stories</h1>
   
     <div class="p-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
