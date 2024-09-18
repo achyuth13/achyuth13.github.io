@@ -7,9 +7,9 @@
       <div class="text-sm md:text-lg lg:text-xl">
         <p class="mb-4">
           I write 
-          <a href="/code" class="font-bold hover:text-gray-300 transition-colors duration-300">code</a>, 
-          <a href="/music" class="font-bold hover:text-gray-300 transition-colors duration-300">music</a>, and 
-          <a href="/blogs" class="font-bold hover:text-gray-300 transition-colors duration-300">blogs</a>.
+          <a href="/code" class="font-bold hover:text-gray-300 transition-colors duration-300 sm:text-white text-red-300">code</a>, 
+          <a href="/music" class="font-bold hover:text-gray-300 transition-colors duration-300 sm:text-white text-pink-300">music</a>, and 
+          <a href="/blogs" class="font-bold hover:text-gray-300 transition-colors duration-300 sm:text-white text-orange-300">blogs</a>.
           <!-- <a href="/stories" class="font-bold hover:text-gray-300 transition-colors duration-300">stories</a>. -->
         </p>
         <div class="flex justify-center md:justify-start space-x-6 mt-8">

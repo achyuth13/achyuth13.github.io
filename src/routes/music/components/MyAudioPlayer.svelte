@@ -7,6 +7,7 @@
   import Controls from './Controls.svelte';
   import VolumeSlider from './VolumeSlider.svelte';
   import PlayList from './PlayList.svelte';
+  import ArrowButton from '$lib/commons/components/ArrowButton.svelte';
   
   let trackIndex: number = 0;
   let audioFile: HTMLAudioElement;
@@ -155,6 +156,8 @@ function updateTime(): void {
   </section>
   
   <PlayList on:click={handleTrack} />
+
+  <ArrowButton />
 </div>
 
 <style>

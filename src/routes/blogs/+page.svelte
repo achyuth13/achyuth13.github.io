@@ -1,4 +1,5 @@
 <script lang="ts">
+  import ArrowButton from "$lib/commons/components/ArrowButton.svelte";
   import { blogsData } from "./data/blogs";
   
   let blogs = blogsData;
@@ -15,4 +16,5 @@
       {/each}
     </ul>
   </div>
+  <ArrowButton /> 
 </div>

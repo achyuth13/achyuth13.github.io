@@ -1,3 +1,7 @@
+<script lang="ts">
+  import ArrowButton from "$lib/commons/components/ArrowButton.svelte";
+</script>
+  
 <div class="min-h-screen bg-[url('/img/watch.jpeg')] bg-contain bg-center bg-repeat flex items-center justify-center px-4">
     <!-- "Code" heading positioned to the top-left -->
     <h1 class="absolute top-6 left-6 text-7xl md:text-6xl font-bold text-secondary">Code</h1>
@@ -28,4 +32,6 @@
             Check out my work on <a href="https://github.com/achyuth13" target="_blank" class="text-primary font-bold hover:underline">GitHub</a>
         </p>
     </div>
+
+    <ArrowButton />
 </div>
