@@ -3,7 +3,8 @@
 <div class="relative min-h-screen bg-primary">
   <div class="flex flex-col md:flex-row justify-between items-center relative z-10 p-4 md:p-12">
     <div class="flex flex-col md:text-primary ml-4 md:ml-12 text-gray-100 text-center md:text-left lg:text-left mt-10">
-      <h1 class="text-4xl md:text-6xl lg:text-8xl pb-6 md:pb-10">Achyuth Nag</h1>
+      <a href="/resume.pdf" target="_blank" rel="noopener noreferrer"><h1 class="text-4xl md:text-6xl lg:text-8xl pb-6 md:pb-10">Achyuth Nag</h1></a>
+    
       <div class="text-sm md:text-lg lg:text-xl">
         <p class="mb-4">
           I write 
@@ -28,9 +29,9 @@
           <a href="https://www.instagram.com/achyuthnag?igsh=MWFvM3VhY285bTE4ZA==" target="_blank" class="text-gray-100 hover:text-gray-300 transition-colors duration-300">
             <i class="fab fa-instagram text-2xl"></i>
           </a>
-          <a href="mailto:achyuth@nagadelic.com" target="_blank" class="text-gray-100 hover:text-gray-300 transition-colors duration-300">
+          <a href="mailto:achyuthnag13@gmail.com" target="_blank" class="text-gray-100 hover:text-gray-300 transition-colors duration-300">
             <i class="fas fa-envelope text-2xl"></i>
-          </a>
+          </a>        
         </div>
       </div>
     </div>

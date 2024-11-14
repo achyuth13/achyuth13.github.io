@@ -8,7 +8,7 @@
         <slot />
     </main>
     <footer class="py-2 flex flex-col items-center justify-center bg-black text-white">
-        <a class="font-bold text-white text-sm" href="mailto:achyuth@nagadelic.me" role="button">achyuth@nagadelic.me</a>
+        <p class="text-xs">Try clicking on some of the texts that you see &#127817;</p>
         <div class="font-serif text-sm">
             <span class="italic">Written in <a href="https://kit.svelte.dev" class="italic">Svelte</a></span> 
         </div>
