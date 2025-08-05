@@ -30,3 +30,12 @@ export const GET: RequestHandler = async () => {
         return json({ error: 'Failed to list endpoints' }, { status: 500 });
     }
 };
+
+export const DELETE: RequestHandler = async () => {
+    try {
+        dataStore.clear(); // This will clear all data
+        return json({ success: true, message: 'All data deleted' });
+    } catch (error) {
+        return json({ error: 'Failed to delete data' }, { status: 500 });
+    }
+};

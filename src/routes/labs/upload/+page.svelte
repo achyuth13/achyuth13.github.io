@@ -46,6 +46,23 @@
         isLoading = false;
     }
 
+    async function deleteAllData() {
+        if (confirm('Are you sure you want to delete all endpoints?')) {
+            try {
+                const response = await fetch('/api/upload', {
+                    method: 'DELETE'
+                });
+                if (response.ok) {
+                    showMessage('All data deleted successfully', 'success');
+                } else {
+                    showMessage('Failed to delete data', 'error');
+                }
+            } catch (error) {
+                showMessage('Failed to delete data', 'error');
+            }
+        }
+    }
+
     function showMessage(text: string, type: 'success' | 'error') {
         message = text;
         messageType = type;
@@ -66,7 +83,15 @@
 
 <div class="min-h-screen bg-black text-white p-8">
     <div class="max-w-4xl mx-auto">
-        <h1 class="text-4xl font-bold mb-8 text-center">JSON Data Upload</h1>
+        <div class="flex justify-between items-center mb-8">
+            <h1 class="text-4xl font-bold text-center flex-1">JSON Data Upload</h1>
+            <button 
+                on:click={deleteAllData}
+                class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg text-sm font-semibold"
+            >
+                Delete All Data
+            </button>
+        </div>
         
         <div class="space-y-6">
             <div>
