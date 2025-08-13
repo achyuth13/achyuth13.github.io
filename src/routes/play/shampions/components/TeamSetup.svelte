@@ -55,7 +55,6 @@
   <div class="text-center mb-8">
     <div class="text-6xl mb-4">👥</div>
     <h2 class="text-3xl font-bold mb-2">Team Setup</h2>
-    <p class="text-gray-300">Configure your teams and players</p>
   </div>
 
   <div class="space-y-6">

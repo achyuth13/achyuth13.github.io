@@ -78,11 +78,10 @@
   <div class="container mx-auto px-4 py-8">
     <header class="text-center mb-12">
       <h1
-        class="text-6xl font-bold bg-gradient-to-r from-yellow-400 via-pink-500 to-red-500 bg-clip-text text-transparent mb-4"
+        class="text-4xl font-bold bg-gradient-to-r from-yellow-400 via-pink-500 to-red-500 bg-clip-text text-transparent mb-4"
       >
-        🏸 We are the Shampions 🏸
+        We are the Shampions
       </h1>
-      <p class="text-xl text-gray-300">Badminton Tournament Leaderboard</p>
     </header>
 
     {#if !isAuthenticated}
